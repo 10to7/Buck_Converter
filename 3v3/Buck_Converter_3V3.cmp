@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon 02 Jun 2014 23:23:24 BST
+
+BeginCmp
+TimeStamp = /538BA34A;
+Reference = C1;
+ValeurCmp = 68uF;
+IdModule  = Capacitors_SMD:c_elec_4x4.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /538BA307;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538BA31B;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538BA427;
+Reference = C4;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /538BA3FF;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = SMD_Packages:SOT323;
+EndCmp
+
+BeginCmp
+TimeStamp = /538BA413;
+Reference = L1;
+ValeurCmp = 100uH;
+IdModule  = Inductors_NEOSID:Neosid_Inductor_SM-NE56_SMD2220;
+EndCmp
+
+BeginCmp
+TimeStamp = /538CE366;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /538CE314;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /538BA2DB;
+Reference = R1;
+ValeurCmp = 4K7;
+IdModule  = 10to7_sm_standard:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538BA2B6;
+Reference = U1;
+ValeurCmp = LM2597;
+IdModule  = 10to7_sm_standard:SOIC8;
+EndCmp
+
+EndListe
