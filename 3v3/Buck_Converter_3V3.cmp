@@ -1,49 +1,63 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon 02 Jun 2014 23:23:24 BST
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri 20 Jun 2014 07:20:23 BST
 
 BeginCmp
-TimeStamp = /538BA34A;
+TimeStamp = /53A353C9;
 Reference = C1;
 ValeurCmp = 68uF;
-IdModule  = Capacitors_SMD:c_elec_4x4.5;
+IdModule  = Capacitors_SMD:c_elec_6.3x4.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /538BA307;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = Capacitors_SMD:c_0603;
+IdModule  = 10to7_sm_standard:SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /538BA31B;
 Reference = C3;
 ValeurCmp = 0.1uF;
-IdModule  = Capacitors_SMD:c_0603;
+IdModule  = 10to7_sm_standard:SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /538BA427;
+TimeStamp = /53A353B5;
 Reference = C4;
 ValeurCmp = 100uF;
-IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /538BA3FF;
 Reference = D1;
-ValeurCmp = DIODESCH;
-IdModule  = SMD_Packages:SOT323;
+ValeurCmp = HSMS-2800;
+IdModule  = SMD_Packages:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A35290;
+Reference = D2;
+ValeurCmp = Power;
+IdModule  = 10to7_sm_standard:SM0603_Polarity;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A35354;
+Reference = F1;
+ValeurCmp = 500MA;
+IdModule  = 10to7_sm_standard:SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /538BA413;
 Reference = L1;
-ValeurCmp = 100uH;
-IdModule  = Inductors_NEOSID:Neosid_Inductor_SM-NE56_SMD2220;
+ValeurCmp = 300uH;
+IdModule  = 10to7_sm_standard:6mmx6mm_inductor;
 EndCmp
 
 BeginCmp
-TimeStamp = /538CE366;
+TimeStamp = /53A3D2AB;
 Reference = P1;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
@@ -60,7 +74,14 @@ BeginCmp
 TimeStamp = /538BA2DB;
 Reference = R1;
 ValeurCmp = 4K7;
-IdModule  = 10to7_sm_standard:SM0603;
+IdModule  = 10to7_sm_standard:SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A3524C;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = 10to7_sm_standard:SM0402;
 EndCmp
 
 BeginCmp
@@ -68,6 +89,13 @@ TimeStamp = /538BA2B6;
 Reference = U1;
 ValeurCmp = LM2597;
 IdModule  = 10to7_sm_standard:SOIC8;
+EndCmp
+
+BeginCmp
+TimeStamp = /538CE366;
+Reference = VIn1;
+ValeurCmp = CONN_2;
+IdModule  = 10to7_connectors:2_Pin_Screw_5mm_Pitch;
 EndCmp
 
 EndListe
