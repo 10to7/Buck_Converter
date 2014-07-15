@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri 20 Jun 2014 07:20:23 BST
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed 16 Jul 2014 00:03:19 BST
 
 BeginCmp
 TimeStamp = /53A353C9;
@@ -96,6 +96,13 @@ TimeStamp = /538CE366;
 Reference = VIn1;
 ValeurCmp = CONN_2;
 IdModule  = 10to7_connectors:2_Pin_Screw_5mm_Pitch;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C5B357;
+Reference = VIn2;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 EndListe
